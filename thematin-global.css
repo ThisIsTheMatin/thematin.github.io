@@ -312,6 +312,7 @@ table td:first-child {
   }
 }
 .donate-guide {
+  max-width: 100%;
   width: 200px;
   border-radius: 10px;
   box-shadow: 2px 2px 10px rgb(139, 139, 139);
@@ -320,16 +321,4 @@ table td:first-child {
 .donate-guide:hover {
   transition: 0.3s;
   box-shadow: 2px 2px 15px rgb(102, 102, 102);
-}
-@media (max-width: 1000px)
-{
-  .donate-guide {
-    width: 100px;
-    border-radius: 10px;
-    box-shadow: 2px 2px 10px rgb(139, 139, 139);
-  }
-  .donate-guide:hover {
-    transition: 0.3s;
-    box-shadow: 2px 2px 15px rgb(102, 102, 102);
-  }
 }
