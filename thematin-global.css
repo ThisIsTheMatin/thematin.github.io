@@ -1,16 +1,17 @@
 /* css variables*/
 :root {
-  --primary-color: #432E30;
+  --primary-color: #37B5F7;
   --primary-color-light: #8E7474;
-  --accent-color: #FE6A6B;
+  --accent-color: #FFFFFF;
   --accent-color-light: #FFE4E4;
   --accent-color-dark: #B94B4C;
   --white-color: #FAFBFC;
   --light-gray-color: #C6CBD1;
   --medium-gray-color: #959DA5;
   --dark-gray-color: #444D56; 
-  --bg-color: #F8F8FA;
+  --bg-color: #151515;
   --code-bg-color: #F0E8E8;
+  --paragraph-color: #FFFFFF;
 }
 
 /* normalized */
@@ -23,7 +24,7 @@ html, body {
 
 p {
   font-weight: 300;
-  color: #4A4A4A;
+  color: var(--paragraph-color);
 }
 
 a, a:hover {
@@ -316,9 +317,27 @@ table td:first-child {
   width: 200px;
   border-radius: 10px;
   box-shadow: 2px 2px 10px rgb(139, 139, 139);
+  transition: 0.3s;
+  -o-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -webkit-transition: 0.3s;
 }
 
 .donate-guide:hover {
+  width: 30%;
   transition: 0.3s;
-  box-shadow: 2px 2px 15px rgb(102, 102, 102);
+  -o-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -webkit-transition: 0.3s;
+  box-shadow: 2px 2px 15px rgb(102, 102, 102); 
+}
+#header
+{
+  width: 100%;
+  position: fixed;
+}
+a:hover
+{
+  transition: 0.3s;
+  font-size: 18px;
 }
