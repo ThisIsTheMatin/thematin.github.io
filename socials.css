@@ -1,0 +1,16 @@
+body {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+a {
+    text-decoration: none;
+    text-align: right;
+}
+
+button {
+    text-align: center;
+    padding: 10px 35px;
+    display: block;
+}
